@@ -1,0 +1,58 @@
+/** Diferença entre Empty e Blank
+
+- Métodos de comparação
+- String está vazia, em branco ou é nula?
+
+exemplos:
+
+	val s = ""
+	println(s.isEmpty())
+	//true
+	
+	println(s.isBlank())
+	//true
+	
+	println(s.isNullOrBlank()) || s.isNullOrEmpty())
+	//true
+
+	
+	val s= "   "
+	println(s.isEmpty())
+	//false
+	printkn(s.isBlank())
+	//true
+
+
+- Se o tamanho da string (s.length) for 0 está empty e Blank
+- Se o tamanho for > 0, mas todos os caracteres são espaços em branco, está blank, mas não empty
+
+
+----------------------------------//
+
+programa
+
+
+
+//função principal
+
+fun main() {
+
+	val empty = ""
+	println(empty.legth)
+
+	val blank = "     "
+	println(blank.length)
+
+
+	println(empty.isEmpty() && empty.isBlank())
+	//retorna true
+
+	println(blank .isEmpty() && blank .isBlank())
+	//retorna false
+
+
+}
+	
+
+ */
+

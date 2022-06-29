@@ -1,0 +1,28 @@
+/** Valor Nulo e Operadores aritméticos básicos
+ 
+ - Qualquer tipo de variavel pode recebe rum valor nulo,
+ para isso basta deixar claro na declaração da variavel 
+ através do sinald de interrogação (?), da seguinte forma:
+ 
+ 	var month: Int? = null
+    //Atribui o valor null corretamente a month
+    
+    var month: Int = null
+    //Dessa forma derá erro de compilação: "Null can not be a value of a non-null type Int"
+   
+   
+---------------------------------------------------//----------------------------------------------------
+
+Operadores Aritméticos
+
+FUNÇÃO 			EXPRESSAO 	COMANDO		ATRIBUIÇÃO
+
+soma			a + a		a.plus(b)	a += b
+subratração		a - a		a.minus(b)	a -= b
+multiplicação		a * b		a.times(b)	a *= b
+divisão			a / a		a.div(b)	a /= b
+resto			a % a		a.mod(b)	a %= b
+
+        
+ */
+

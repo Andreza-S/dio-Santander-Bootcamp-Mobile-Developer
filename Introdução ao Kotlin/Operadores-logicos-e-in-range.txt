@@ -1,0 +1,54 @@
+/** Operadores Lógicos
+ * Quando utiliza-se o comando, é recomendado colocar a expressão enre parentese
+ 
+ 
+ 
+FUNÇÃO e EXPRESSAO		Comando
+
+E (&&)					(expressão1) and (expressão2)
+Ou (||)					(expressão1) or (expressão2)
+
+
+
+----------------------------------------------------------//--------------------------------------------
+
+
+Operadores In e range
+
+Função e Expressão 
+
+contém (In)
+Não contém (!In)
+range/Faixa de valores (Int..Int)
+
+In
+* Se o valor está presente em uma lista ou uma faixa (range) de valores;
+
+
+Range
+* Range cria um intervalo de valores que inicia no primeiro parametro e acaba no segundo
+
+exemplos:
+	val numbers = listOf(3,9,0,1,2)
+	print(12 in numbers)
+	// retorna false, pois o número 12 não está incluso em listOf
+
+	
+	print(12 in 0..20)
+	// true, pois 12 está entre o intervalo que se inicia em 0 e termina em 20
+
+----------------------------------------------------------------------//--------------------------------------
+        //programa simulando um bingo
+
+//função princiapl
+
+fun main() {
+val bingo - listOf(8,6,34,2,13)
+var number = (1..34).random() // aqui será sorteado um número entre 1 e 34 de forma aleatoria
+
+printIn(number)
+printIn(number in bingo)
+}
+
+ */
+

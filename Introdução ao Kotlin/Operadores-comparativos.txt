@@ -1,0 +1,15 @@
+/** Operadores comparativos
+ * Os comandos compareTo retornam os valores -1 (menor que), 0 (igual) ou 1 (maior). Já os operadores retornam valores boleanos
+ * O comando equals retorna um booleano
+
+
+FUNÇÃO 					EXPRESSAO 				COMANDO		
+
+maior/menor				a > b ou a < b			a.compareTo(b) > 0 ou a.compareTo(b) < 0																							
+maior/menor igual		a >= b ou a <= b		a.compareTo(b) >= 0 ou a.compareTo(b) =< 0
+igual					a == b					a.equals(b)
+diferente				a != b					!(a.equals(b))
+
+        
+ */
+

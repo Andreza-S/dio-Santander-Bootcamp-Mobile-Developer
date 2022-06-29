@@ -1,0 +1,21 @@
+Exercicio final
+
+
+construa uma calculadora que receba um valor float e um valor const e retorne um valor float.
+
+
+fun main () {
+
+	var n1 = 3.25
+	const val n2 = 36
+
+	var soma = n1 + n2
+	var multiplica = n1 *n2
+	var divisao = n2/n1
+	var subtrai = n2-n1 
+
+	prinln(soma)
+	prinln(multiplica)
+	prinln(divisao)
+	prinln(subtrai)
+}

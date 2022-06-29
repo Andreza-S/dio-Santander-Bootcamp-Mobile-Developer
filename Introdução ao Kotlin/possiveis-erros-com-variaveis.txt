@@ -1,0 +1,41 @@
+/** Possiveis erros de com variaveis
+ 1o caso:
+ 
+ var currentAge
+ currentAge = 22//ERRO! 
+ 
+   - Nesse caso a variavel precisa ser iniciado com pelo menos o tipo de dados que ela receberá,
+   pois a linguagem kotlin não possui tipagem dinâmica,
+   logo se faz necessário que as varaiveis sejam inicializadas com o tipo de dados que receberá
+   
+   nesse caso podemos realizar a operação sem erro da seguintes forma:
+   
+   var currentAge: Int
+   currnetAge = 22
+   
+   		ou
+   var currentAge = 22 // Nesse caso o tipo de dado é atribuido de forma implicita
+   
+ 
+ 2o caso:
+ 
+ var currentYear = "Ano"
+ currentYear = 2021 //ERRO!
+ 
+ 	- Nesse segundo caso há uma atribuição de um valor do tipo inteiro,mas a variavel
+    foi definida para receber do tipo string
+    
+    podemos efetuar a sgeuinte operação sem erro da seguinte forma:
+    
+    var currentYear= "Ano"
+    currentYear = 2021.toString() // converter para string 
+        
+ */
+
+
+
+fun main() {
+   var currentAge = 30
+   currentAge = 90
+   println(currentAge)
+}

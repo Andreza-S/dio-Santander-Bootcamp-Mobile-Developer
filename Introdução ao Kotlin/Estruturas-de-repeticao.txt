@@ -1,0 +1,53 @@
+/** Estruturas de repetição
+
+- for (variavekindexadora in/until/downTo faixa de valores/condicional step intervalo)
+
+- In: conta do valor inicial ate o valor final estabelecido
+
+- Until: cota do valor atual ate o valor estabelecido menos 1
+
+- DownTo: conta de maneira decrescente
+
+- Step: determina o intervalo da contagem
+
+
+
+
+exemplos de programas:
+
+
+fun main(){
+
+for (i in 0..20){
+	print("$i")
+	}
+
+for (i in 20 downTo 0) {
+	print("$i")
+	}
+
+
+for (i in 1 until 20) {
+	print("$i")
+	}
+
+
+for (i in 0..20 step num) {
+	print("$i")
+	}
+
+
+}
+
+
+val sArray = "Olha essa string!"
+for(l in sArray){
+	println(l.toUpperCase())
+}
+
+
+
+
+
+*/
+

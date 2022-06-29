@@ -1,0 +1,38 @@
+/** Funções de ordem superior
+
+- Recebem outra função ou lambda por parâmetro
+- Bastante úteis para a generalização de funções e tratamento de erros
+
+
+exemplo:
+	val x = calculate (12,4,::sum)
+	val y = calculate(12,4){a,b -> a*b}
+
+
+-----------------------------//
+
+
+programa
+
+//função princiapl
+
+fun main() {
+
+	val z:Int
+
+	z = calculate(34, 90, :: sum)
+	println(z)
+
+}
+
+
+fun sum(a1:Int, a2:Int) = a1.plus(a2)
+
+
+fun calculate(n1:Int, n2:Int, operation:(Int, Int) -> Int):Int {
+	val result = operation(n1,n2)
+	return result
+}		
+
+ */
+

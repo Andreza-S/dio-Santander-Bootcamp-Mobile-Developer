@@ -1,0 +1,30 @@
+/**
+Tipos de dados em Kotlin
+ - Byte
+ - Short
+ - Int
+ - Long
+ - Float
+ - Double
+ - Char
+ */
+
+/** Conversão de dados */
+// toByte()
+// toShort()
+// toInt()
+// toLong()
+// toFloat()
+// toDouble()
+// toChar()
+
+
+fun main() {
+    // printando na tela alguns valores
+    
+    println(Int.MAX_VALUE)
+    println(Double.MAX_VALUE)
+    println(Float.MAX_VALUE)
+    println(Byte.MAX_VALUE)
+    
+}

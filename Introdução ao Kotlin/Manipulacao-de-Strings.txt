@@ -1,0 +1,81 @@
+/** Manipulação de Strings
+
+- Strings possuem diversos m;etodos associados:
+	* indexação, concatenação , comparação, formatação
+- Pode ser concatenada com plus/+
+- Também é tratada como um array de Char
+
+--------------------//
+
+Indexação
+
+- String como array
+- First(), last(), String.length, String[index]
+
+
+exemplo:
+	val s - "Olá, mundo!"
+	
+	pintln(s[0])
+	println(s.first())
+	//imprime 0
+
+
+	pintln(s[s.length -1])
+	println(s.last())
+	//imprime !
+
+----------------------//
+
+Concatenação
+
+- Para concatenar duas strings o plus/+ pode ser utilizado
+- Para concatenar uma variavel a uma String, os simbolos ${} devem ser inseridos
+
+
+exemplo:
+
+	val name = "Ana"
+	val s = "Olá"
+
+	println(s + name)
+	//imprime OláAna
+
+	println("${s}, ${name}!"}
+	//imprime Olá, Ana!
+
+	println("Bem vinda(o), $name!")
+	//imprime Bem vinda(o), Ana!
+
+---------------------------------//
+
+Programa de boas-vindas
+
+
+//função principal
+
+
+fun main() {
+	val welcome = "Bem vinda(o)"
+	var name = "luisa"
+	println("$welcome, ${name.capitalize()}!")
+	//imprime Bem vinda(o), Luisa!
+	//"{variavel}, {variavel} !"
+
+
+}
+------------------------//
+
+Formatação
+
+NOME				FUNÇÃO								MÉTODOS
+
+Capitalização de strings	Alterar a formatação entre letras minusculas e maiusculas	capitaleze(), toUpperCase(), toLowerCase(), and decapitalize()
+Remoção de espaços		Remove espaços vazios e caracteres inadequados para impressão	trimEnd(), trimStart(), trim()
+Substituição de caracteres	Substituir caracteres por outros				replace(x,y)
+Formatação			Formatar outros valores para um padrão de string		"padrão ${valor}".format(valor)
+
+
+
+ */
+
